@@ -1,0 +1,20 @@
+{
+	"routes":[
+		{
+			"path": "/sap/opu/odata",
+			"target":{
+				"type": "destination",
+				"name": "NS4",
+				"entryPath": "/sap/opu/odata"
+			}
+		},
+		{
+			"path": "/resources",
+			"target":{
+				"type": "service",
+				"name": "sapui5",
+				"entryPath": "/resources"
+			}
+		}
+	]
+}

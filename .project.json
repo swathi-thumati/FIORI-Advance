@@ -1,0 +1,13 @@
+{
+  "generation": [
+    {
+      "templateId": "ui5template.basicSAPUI5ApplicationComponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Mon, 11 Feb 2019 02:07:24 GMT"
+    }
+  ],
+  "deploy": {
+    "destination": "S4C",
+    "name": "ZOFTFEBENDTOEND"
+  }
+}

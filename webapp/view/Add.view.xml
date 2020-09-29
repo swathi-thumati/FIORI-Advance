@@ -1,0 +1,45 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="spiderman.controller.Add"><Page title="Add New Product" showNavButton="true" navButtonPress="onBack">
+		<content>
+			
+		<f:SimpleForm editable="true" layout="ResponsiveGridLayout" id="__form0">
+			
+		    <f:content>
+			
+		        <core:Title text="Title" id="__title0"/>
+			
+		        <Label text="Product Id/Name" id="__label0"/>
+			
+		        <Input width="100%" value="{india>/product/ProductId}" id="__input0" showValueHelp="true" valueHelpRequest="onF4Help"/>
+			
+		        <Input width="100%" value="{india>/product/Name}" id="__input1"/>
+			
+		        <Label text="Price" id="__label1"/>
+			
+		        <Input width="100%" value="{india>/product/Price}" id="__input2"/>
+			
+		        <Label text="Currency" width="100%" id="__label2"/>
+			
+		        <Select selectedItem="Element sap.ui.core.ListItem#__item3" selectedKey="{india>/product/CurrencyCode}" selectedItemId="__item3" id="idCurrency">
+			
+		            <items>
+			
+		                <core:ListItem text="Indian Rupees" key="INR" id="__item3"/>
+			
+		                <core:ListItem text="US dollers" key="USD" id="__item4"/>
+			
+		                <core:ListItem text="Japan Yen" key="JPY" id="__item5"/></items>
+			
+		        </Select></f:content>
+			
+		</f:SimpleForm>
+			
+		</content>
+		<footer>
+			<Toolbar>
+				<ToolbarSpacer/>
+				<Button text="Save" icon="sap-icon://save" type="Accept" press="onSave"/>
+				<Button text="Cancel"/>
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>

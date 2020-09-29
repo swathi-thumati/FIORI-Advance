@@ -1,0 +1,107 @@
+<mvc:View xmlns:core="sap.ui.core" 
+xmlns:anubhav="spiderman.customControls"
+xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="spiderman.controller.View2"><Page title="{name}" showNavButton="true" navButtonPress="onBack">
+		<content>
+			<!--<Button text="Back" press="onBack"></Button>-->
+			<ObjectHeader title="{ProductId}" intro="{Name}" number="{Price}" numberUnit="{CurrencyCode}" icon="{image}"/>
+			
+			<IconTabBar>
+				<items>
+					<IconTabFilter icon="sap-icon://add-equipment" text="Additiona Info">
+					    <content>
+					    	<anubhav:Heading mario="Optimus Prime" zumba="blue" border="1px solid red"></anubhav:Heading>
+					    	<anubhav:Heading mario="Decepticon" border="2px dashed blue"></anubhav:Heading>
+					        <Panel id="__panel0" headerText="More Fruit Info" expandable="true">
+					            <content>
+					                <core:Fragment fragmentName="spiderman.fragments.addressData" type="XML"></core:Fragment>
+					            </content>
+					        </Panel>
+					        <Panel xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" id="__panel0_copy" headerText="Panel 2" expandable="true">
+					            <content>
+					                <core:Fragment fragmentName="spiderman.fragments.addressData" type="XML"></core:Fragment>
+					            </content>
+					        </Panel>
+					        <Panel xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" id="__panel0_copy2" headerText="Panel 3" expandable="true">
+					            <content>
+					               <core:Fragment fragmentName="spiderman.fragments.addressData" type="XML"></core:Fragment>
+					            </content>
+					        </Panel>
+					    </content>
+					</IconTabFilter>
+					<IconTabFilter icon="sap-icon://supplier" text="Suppliers">
+					    <content>
+					        <Table mode="MultiSelect" noDataText="Drop column list items here and columns in the area above" id="idTable" items="{/Suppliers}">
+					            <columns>
+					                <Column id="__column0">
+					                    <header>
+					                        <Label text="Supplier Name" id="__label2"/>
+					                    </header>
+					                </Column>
+					                <Column id="__column1">
+					                    <header>
+					                        <Label text="City" id="__label3"/>
+					                    </header>
+					                </Column>
+					                <Column id="__column2" demandPopin="true" minScreenWidth="Small">
+					                    <header>
+					                        <Label text="Since When" id="__label4"/>
+					                    </header>
+					                </Column>
+					                <Column id="__column3" minScreenWidth="Tablet">
+					                    <header>
+					                        <Text text="Country" id="__text26"/>
+					                    </header>
+					                </Column></columns>
+					            <items>
+					            	<ColumnListItem>
+					            		<cells>
+					            			<Text text="{name}"/>
+					            			<Input value="{city}" showValueHelp="true" valueHelpRequest="onF4Help"/>
+					            			<Text text="{sinceWhen}"/>
+					            			<Text text="{country}"/>
+					            		</cells>
+					            	</ColumnListItem>
+					            </items>
+					        <headerToolbar>
+					            <Toolbar width="100%" id="__toolbar2">
+					                <content>
+					                    <ToolbarSpacer id="__spacer1"/>
+					                    <Button width="100px" id="__button2" icon="sap-icon://filter" press="onFilter"/>
+					                </content>
+					            </Toolbar>
+					        </headerToolbar>
+					        </Table>
+					    </content>
+					</IconTabFilter>
+					<IconTabFilter icon="sap-icon://activities" text="Extra">
+					    <content>
+					        <Select selectedItem="Element sap.ui.core.ListItem#__item1" id="idSelect" items="{/Suppliers}">
+					            <items>
+					                <core:ListItem text="{name}" key="{name}"/>
+					            </items>
+					        </Select>
+					        <ComboBox selectedItem="Element sap.ui.core.ListItem#__item1" id="idComboBox" items="{/Suppliers}">
+					            <items>
+					                <core:ListItem text="{name}" key="{name}"/>
+					            </items>
+					        </ComboBox>
+					        <MultiComboBox selectedItem="Element sap.ui.core.ListItem#__item1" id="idMultiComboBox" items="{/Suppliers}">
+					            <items>
+					                <core:ListItem text="{name}" key="{name}"/>
+					            </items>
+					        </MultiComboBox>
+					    </content>
+					</IconTabFilter>
+				</items>
+			</IconTabBar>
+			
+		</content>
+		<footer>
+			<Toolbar>
+				<ToolbarSpacer/>
+				<Button text="Save" type="Accept" press="onSave"/>
+				<Button text="Cancel"/>
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>

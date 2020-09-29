@@ -1,0 +1,16 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m">
+	<sap.ui.layout.form:SimpleForm xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml"
+		xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" layout="ResponsiveGridLayout">
+		<sap.ui.layout.form:content>
+			<core:Title xmlns:core="sap.ui.core" text="More Fruit Info"/>
+			<Label xmlns="sap.m" text="Price"/>
+			<Input xmlns="sap.m" width="100%" value="{Price}"/>
+			<Input xmlns="sap.m" width="100%" value="{CurrencyCode}"/>
+			<Label xmlns="sap.m" text="Health Benefit"/>
+			<Input xmlns="sap.m" width="100%" value="{Category}"/>
+			<Label text="Color"></Label>
+			<Input value="{DimUnit}"></Input>
+			
+		</sap.ui.layout.form:content>
+	</sap.ui.layout.form:SimpleForm>
+</core:FragmentDefinition>

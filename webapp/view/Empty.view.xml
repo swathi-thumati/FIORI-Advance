@@ -1,0 +1,9 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="spiderman.controller.Empty"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Empty View">
+		<content>
+			<Text text="Please select an item on left side if you want :)"></Text>
+			<html:iframe src="http://www.onlinefioritrainings.com" width="100%" height="80%"></html:iframe>
+		</content>
+	</Page>
+</mvc:View>

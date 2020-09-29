@@ -1,0 +1,526 @@
+{
+	"fruits": [
+		{
+			"name": "Alkpple",
+			"type": "Alkaline",
+			"color": "Red",
+			"healthBenfit": "Lower Risk of Diabetes",
+			"image": "https://pimajted.org/wp-content/uploads/2018/09/apple-image-300x300.jpg",
+			"price": "220.00",
+			"unit": "1 kg"
+		},
+		{
+			"name": "Lemon",
+			"type": "Citrus",
+			"color": "Yellow",
+			"healthBenfit": "Weight loss",
+			"image": "https://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/27/2015/06/25090624/Lemons-200x200.png",
+			"price": "43.20",
+			"unit": "500 gm"
+		},
+		{
+			"name": "Banana",
+			"type": "Alkaline",
+			"color": "Yellow",
+			"healthBenfit": "High Source Of Potassium",
+			"image": "https://www.bigbasket.com/media/uploads/p/l/10000345_18-fresho-banana-nendran.jpg",
+			"price": "40.00",
+			"unit": "1 kg"
+		},
+		{
+			"name": "Strawberry",
+			"type": "Alkaline",
+			"color": "Red",
+			"healthBenfit": "Rich source of antioxidants",
+			"image": "https://www.bigbasket.com/media/uploads/p/l/20000910_11-fresho-orange-imported.jpg",
+			"price": "50.00",
+			"unit": "200 gm"
+		},
+		{
+			"name": "Orange",
+			"type": "Citrus",
+			"color": "Orange",
+			"healthBenfit": "Healthy immune system",
+			"image": "https://www.bigbasket.com/media/uploads/p/l/20000910_11-fresho-orange-imported.jpg",
+			"price": "130.00",
+			"unit": "1 kg"
+		},
+		{
+			"name": "Mosambi",
+			"type": "Citrus",
+			"color": "Green",
+			"healthBenfit": "Enhances Fairness",
+			"image": "https://www.bigbasket.com/media/uploads/p/l/10000192_19-fresho-mosambi.jpg",
+			"price": "48.00",
+			"unit": "900 gm"
+		},
+		{
+			"name": "Grapes",
+			"type": "Alkaline",
+			"color": "Green",
+			"healthBenfit": "Decrease Blood Sugar",
+			"image": "https://www.bigbasket.com/media/uploads/p/l/10000288_19-fresho-grapes-sonaka-seedless.jpg",
+			"price": "50.00",
+			"unit": "500 gm"
+		},
+		{
+			"name": "Mango",
+			"type": "Alkaline",
+			"color": "Yellow",
+			"healthBenfit": "Helps in digestion",
+			"image": "https://www.bigbasket.com/media/uploads/p/l/10000298_10-fresho-mango-banganapalli.jpg",
+			"price": "159.00",
+			"unit": "1 kg"
+		},
+		{
+			"name": "Water Melons",
+			"type": "Alkaline",
+			"color": "Green",
+			"healthBenfit": "Prevent Cancer",
+			"image": "https://www.bigbasket.com/media/uploads/p/l/10000297_16-fresho-watermelon-striped-large.jpg",
+			"price": "89.60",
+			"unit": "1 pc"
+		},
+		{
+			"name": "Papaya",
+			"type": "Alkaline",
+			"color": "Green&Yellow",
+			"healthBenfit": "Protects against arthritis",
+			"image": "https://www.bigbasket.com/media/uploads/p/l/10000152_16-fresho-papaya-semi-ripe.jpg",
+			"price": "36.00",
+			"unit": "1 pc"
+
+		},
+		{
+			"name": "Pears",
+			"type": "Alkaline",
+			"color": "Green",
+			"healthBenfit": "Maintain a healthy blood pressures",
+			"image": "https://www.bigbasket.com/media/uploads/p/l/40048444_3-fresho-pear-green-imported.jpg",
+			"price": "86.40",
+			"unit": "2 pc"
+
+		},
+		{
+			"name": "Plums",
+			"type": "Alkaline",
+			"color": "Purple",
+			"healthBenfit": "Prunes May Promote Bone Health",
+			"image": "https://www.bigbasket.com/media/uploads/p/l/10000573_12-fresho-plum-imported.jpg",
+			"price": "380.00",
+			"unit": "1 kg"
+
+		},
+		{
+			"name": "Tender Coconut",
+			"type": "Alkaline",
+			"color": "Green",
+			"healthBenfit": "Delicious Source of Hydration",
+			"image": "https://www.bigbasket.com/media/uploads/p/l/1203677_1-fresho-tender-coconut-medium.jpg",
+			"price": "58.00",
+			"unit": "2x1 pc"
+
+		},
+		{
+			"name": "Avocado",
+			"type": "Alkaline",
+			"color": "Green",
+			"healthBenfit": "Incredibly Nutritious",
+			"image": "https://www.bigbasket.com/media/uploads/p/l/10000312_17-fresho-avocado.jpg",
+			"price": "400.00",
+			"unit": "1 kg"
+
+		},
+		{
+			"name": "Pomegranate",
+			"type": "Alkaline",
+			"color": "Dark Red",
+			"healthBenfit": "Vitamin C:Prevent scurvy disease",
+			"image": "https://www.bigbasket.com/media/uploads/p/l/40120006_4-fresho-pomegranate-small.jpg",
+			"price": "86.00",
+			"unit": "1 kg"
+
+		},
+		{
+			"name": "Blood orange",
+			"type": "Citrus",
+			"color": "Orange",
+			"healthBenfit": "Vitamin A:helps maintain the health of the skin and some tissues in the body",
+			"image": "https://myzone-ytnyq2s.netdna-ssl.com/wp-content/uploads/2015/03/blood-orange-300x222.jpg",
+			"price": "90.00",
+			"unit": "500 gm"
+
+		},
+		{
+			"name": "Citron",
+			"type": "Citrus",
+			"color": "Yellow",
+			"healthBenfit": "Good Source of Fiber",
+			"image": "https://www.specialtyproduce.com/sppics/8713.png",
+			"price": "70.00",
+			"unit": "1 kg"
+
+		},
+		{
+			"name": "Lime",
+			"type": "Citrus",
+			"color": "Green",
+			"healthBenfit": "Improves heart health",
+			"image": "https://rawfactoryflavor.com/wp-content/uploads/2015/11/lime.jpg",
+			"price": "65.00",
+			"unit": "1 kg"
+
+		},
+		{
+			"name": "Grapefruit",
+			"type": "Citrus",
+			"color": "Orange",
+			"healthBenfit": "High in Nutrients",
+			"image": "https://www.mcvitamins.com/images/grapefruit.jpg",
+			"price": "80.00",
+			"unit": "1 kg"
+
+		},
+		{
+			"name": "Kiwi",
+			"type": "Alkaline",
+			"color": "Green",
+			"healthBenfit": "Good Source of Dietary Fiber",
+			"image": "https://www.bigbasket.com/media/uploads/p/l/20000911_27-fresho-kiwi-green.jpg",
+			"price": "79.20",
+			"unit": "3 pc"
+
+		},
+		{
+			"name": "Pineapple",
+			"type": "Alkaline",
+			"color": "Green",
+			"healthBenfit": "Anti-Inflammatory benefits",
+			"image": "https://images-na.ssl-images-amazon.com/images/I/71%2BqAJehpkL._SY355_.jpg",
+			"price": "56",
+			"unit": "1 pc"
+
+		}
+
+
+	],
+	"Suppliers": [{
+			"name": "Bigbasket",
+			"sinceWhen": "2015",
+			"city": "Bangalore",
+			"fruitName": [{
+				"f0": "Apple",
+				"f1": "Banana",
+				"f2": "Orange",
+				"f3": "Kiwi"
+			}],
+			"country": "India"
+		},
+		{
+			"name": "Grofers",
+			"sinceWhen": "2016",
+			"city": "Jaipur",
+			"fruitName": [{
+				"f0": "Apple",
+				"f1": "Banana",
+				"f2": "Orange",
+				"f3": "Kiwi",
+				"f4": "Pineapple"
+			}],
+			"country": "India"
+		},
+		{
+			"name": "Amazon now",
+			"sinceWhen": "2017",
+			"city": "Hyderabad",
+			"fruitName": [{
+				"f0": "Apple",
+				"f1": "Banana",
+				"f2": "Orange",
+				"f3": "Kiwi",
+				"f4": "Pineapple",
+				"f5": "Guava"
+			}],
+			"country": "India"
+		},
+		{
+			"name": "Starquick",
+			"sinceWhen": "2018",
+			"city": "Mumbai",
+			"fruitName": [{
+				"f0": "Apple",
+				"f1": "Banana",
+				"f2": "Orange",
+				"f3": "Kiwi",
+				"f4": "Pineapple",
+				"f5": "Chicko"
+			}],
+			"country": "India"
+		},
+		{
+			"name": "Namdhari's Fresh",
+			"sinceWhen": "2014",
+			"city": "Delhi",
+			"fruitName": [{
+				"f0": "Apple",
+				"f1": "Banana",
+				"f2": "Orange",
+				"f3": "Kiwi",
+				"f4": "Pineapple",
+				"f5": "Pear",
+				"f6": "Grapes"
+			}],
+			"country": "India"
+		},
+		{
+			"name": "Mysore Fruit Products Pvt. Ltd.",
+			"sinceWhen": "2010",
+			"city": "Bangalore",
+			"fruitName": [{
+				"f0": "Apple",
+				"f1": "Banana",
+				"f2": "Orange",
+				"f3": "Kiwi",
+				"f4": "Pineapple",
+				"f5": "Pear",
+				"f6": "Grapes",
+				"f7": "Lemon"
+			}],
+			"country": "India"
+		},
+		{
+			"name": "Safal Market",
+			"sinceWhen": "2005",
+			"city": "Bangalore",
+			"fruitName": [{
+				"f0": "Apple",
+				"f1": "Banana",
+				"f2": "Orange",
+				"f3": "Kiwi",
+				"f4": "Pineapple",
+				"f5": "Pear",
+				"f6": "Grapes",
+				"f7": "Lemon",
+				"f8": "Water Melon"
+			}],
+			"country": "India"
+		},
+		{
+			"name": "Mechhua Fruit Market",
+			"sinceWhen": "2000",
+			"city": "Kolkata",
+			"fruitName": [{
+				"f0": "Apple",
+				"f1": "Banana",
+				"f2": "Orange",
+				"f3": "Kiwi",
+				"f4": "Pineapple",
+				"f5": "Pear",
+				"f6": "Grapes",
+				"f7": "Lemon",
+				"f8": "Water Melon"
+			}],
+			"country": "India"
+		},
+		{
+			"name": "Frutam - The Fruit Family",
+			"sinceWhen": "2000",
+			"city": "Kolkata",
+			"fruitName": [{
+				"f0": "Apple",
+				"f1": "Banana",
+				"f2": "Orange",
+				"f3": "Kiwi",
+				"f4": "Pineapple",
+				"f5": "Pear",
+				"f6": "Grapes",
+				"f7": "Lemon",
+				"f8": "Water Melon",
+				"f9": "Custed Apple"
+			}],
+			"country": "India"
+		},
+		{
+			"name": "Sardar Fruit Market",
+			"sinceWhen": "1998",
+			"city": "Ahmedabad",
+			"fruitName": [{
+				"f0": "Apple",
+				"f1": "Banana",
+				"f2": "Orange",
+				"f3": "Kiwi",
+				"f4": "Pineapple",
+				"f5": "Pear",
+				"f6": "Grapes",
+				"f7": "Lemon",
+				"f8": "Water Melon",
+				"f9": "Custed Apple",
+				"f10": "Avacado"
+			}],
+			"country": "India"
+		},
+
+		{
+			"name": "Apple wired store",
+			"sinceWhen": "1985",
+			"city": "Jammu and Kashmir",
+			"fruitName": "Apple",
+			"country": "India"
+		},
+		{
+			"name": "SLV FRUITS",
+			"sinceWhen": "2014",
+			"city": "Tirupati",
+			"fruitName": [{
+				"f0": "Apple",
+				"f1": "Banana",
+				"f2": "Orange",
+				"f3": "Kiwi",
+				"f4": "Pineapple",
+				"f5": "Pear",
+				"f6": "Grapes",
+				"f7": "Lemon",
+				"f8": "Water Melon",
+				"f9": "Custed Apple",
+				"f10": "Avacado"
+			}],
+			"country": "India"
+		},
+
+		{
+			"name": "Shree Keshav Store",
+			"sinceWhen": "2000",
+			"city": "Lucknow",
+			"fruitName": [{
+				"f0": "Apple",
+				"f1": "Banana",
+				"f2": "Orange",
+				"f3": "Kiwi",
+				"f4": "Pineapple",
+				"f5": "Pear",
+				"f6": "Grapes",
+				"f7": "Lemon",
+				"f8": "Water Melon",
+				"f9": "Custed Apple",
+				"f10": "Avacado"
+			}],
+			"country": "India"
+		},
+
+		{
+			"name": "GM RAJU FRUITS",
+			"sinceWhen": "1997",
+			"city": "Chennai",
+			"fruitName": [{
+				"f0": "Apple",
+				"f1": "Banana",
+				"f2": "Orange",
+				"f3": "Kiwi",
+				"f4": "Pineapple",
+				"f5": "Pear",
+				"f6": "Grapes",
+				"f7": "Lemon",
+				"f8": "Water Melon",
+				"f9": "Custed Apple",
+				"f10": "Avacado"
+			}],
+			"country": "India"
+		},
+		{
+			"name": "GKS Fruit Market Vijaywada",
+			"sinceWhen": "2004",
+			"city": "Visakhapatnam",
+			"fruitName": [{
+				"f0": "Apple",
+				"f1": "Banana",
+				"f2": "Orange",
+				"f3": "Kiwi",
+				"f4": "Pineapple",
+				"f5": "Pear",
+				"f6": "Grapes",
+				"f7": "Lemon",
+				"f8": "Water Melon",
+				"f9": "Custed Apple",
+				"f10": "Avacado"
+			}],
+			"country": "India"
+		}
+
+
+	],
+	"Cities": [{
+			"name": "Bangalore",
+			"famousFor": "Technology",
+			"state": "Karnataka",
+			"aliasName": "Silicon Valley of India"
+		},
+		{
+			"name": "Visakhapatnam",
+			"famousFor": "Beaches",
+			"state": "Andhra Pradesh",
+			"aliasName": "Goa of the East"
+		},
+		{
+			"name": "Jaipur",
+			"famousFor": "Museums",
+			"state": "Rajasthan",
+			"aliasName": "Pink City"
+		},
+		{
+			"name": "Mumbai",
+			"famousFor": "Hill Road",
+			"state": "Maharashtra",
+			"aliasName": "City of Dreams"
+		},
+		{
+			"name": "Chennai",
+			"famousFor": "Temples",
+			"state": "Tamil Nadu",
+			"aliasName": "Gateway of South India"
+		},
+
+		{
+			"name": "Tirupati",
+			"famousFor": "Venkateswara Temple",
+			"state": "Andhra Pradesh",
+			"aliasName": "Spiritual Capital of India"
+		},
+		{
+			"name": "Kolkata",
+			"famousFor": "Bengali Food",
+			"state": "West Bengal",
+			"aliasName": "City of Joy"
+		},
+
+		{
+			"name": "Lucknow",
+			"famousFor": "Tobacco product",
+			"state": "Uttar Pradesh",
+			"aliasName": "City of Gardens"
+		},
+		{
+			"name": "Jammu and Kashmir",
+			"famousFor": "Apples",
+			"state": "Jammu",
+			"aliasName": "Switzerland of India"
+		},
+		{
+			"name": "Ahmedabad",
+			"famousFor": "Cotton",
+			"state": "Gujarat",
+			"aliasName": "Boston of India"
+		},
+		{
+			"name": "Delhi",
+			"famousFor": "Cotton",
+			"state": "Delhi",
+			"aliasName": "Tourist attractions"
+		},
+		{
+			"name": "Hyderabad",
+			"famousFor": "Bawarchi Biriyani",
+			"state": "Telangana",
+			"aliasName": "City of Nizams "
+		}
+	]
+}
